@@ -1,4 +1,35 @@
-<h1>Main#landing</h1>
-<p>Find me in app/views/main/landing.html.erb</p>
-Oi, Mundo
-<h1>Example heading <span class="badge badge-secondary">New</span></h1>
+<%= stylesheet_link_tag "main"%>
+
+<div class="landing">
+    <div class="logo">
+        <div class="image">
+        <%=image_tag("logo_landing2.png")%>
+        </div>
+        <div class="header">
+            <div class="header-text">Safe & Sound</div>
+            <div class="header-subtitle">Lisboa</div>
+        </div>
+    </div>
+
+
+    <div class="placeholder">
+        <div class="partners">
+            <div class="partner">
+                <%=image_tag("prefeitura.svg")%>
+            </div>
+            <div class="partner">
+                <%=image_tag("psp.svg")%>
+            </div>
+        </div>
+
+
+        <div class="partners">
+            <div class="partner">
+                <%=image_tag("carris.svg")%>
+            </div>
+            <div class="partner">
+                <%=image_tag("uber.svg")%>
+            </div>
+        </div>
+    </div>
+</div>

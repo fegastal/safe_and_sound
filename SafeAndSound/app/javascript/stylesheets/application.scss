@@ -1,1 +1,9 @@
-@import "~bootstrap/scss/bootstrap"
+@import "~bootstrap/scss/bootstrap";
+
+:root {
+    --color-landing-bg: #3F70A0;
+    --color-landing-header: #FFF;
+    --color-landing-subtitle: rgba(255,255,255, 0.75);
+    font-size: 16pt;
+    
+}

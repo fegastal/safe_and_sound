@@ -1,3 +1,71 @@
-// Place all the styles related to the main controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: https://sass-lang.com/
+html {
+    background-color: var(--color-landing-bg);
+}
+
+.landing {
+    background-color: var(--color-landing-bg);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100vh;
+    padding: 2rem 0;
+}
+
+.logo {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo .image {
+    // background-image: image_url("logo_landing2.png");
+}
+
+.logo .image img {
+    position: relative;
+    max-width: 100%;
+    left: -3rem;
+}
+
+.logo .header {
+    position: absolute;
+    top: 43%;
+    // right: 1rem;
+}
+
+.logo .header-text {
+    font-size: 2.1rem;
+    color: var(--color-landing-header);
+    font-family: 'Sanchez', serif;
+
+}
+
+.logo .header-subtitle {
+    color: var(--color-landing-subtitle);
+    text-align: center;   
+    font-size: 1rem;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: .3rem;
+}
+
+.placeholder {
+    width: 100%;
+
+}
+.partners {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 3rem;
+}
+
+@media (min-width: 1000px) {
+    .logo .image img {
+        max-width: 30%;
+    }
+}
