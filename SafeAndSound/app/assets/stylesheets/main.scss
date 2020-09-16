@@ -54,6 +54,7 @@ html {
 
 .placeholder {
     width: 100%;
+    max-width: 22rem;
 
 }
 .partners {
@@ -66,7 +67,27 @@ html {
 }
 
 @media (min-width: 1000px) {
+
+    .header {
+        right: 0;
+
+    }
+
+    .logo .header-text {
+        font-size: 2.4rem;
+    }
+
+    .logo .header-subtitle {
+        font-size: 1.3rem;
+    }
+
     .logo .image img {
-        max-width: 30%;
+        max-width: 100%;
+        width: 25rem;
+        left: 0;
+    }
+
+    .partners {
+        padding: 0;
     }
 }
