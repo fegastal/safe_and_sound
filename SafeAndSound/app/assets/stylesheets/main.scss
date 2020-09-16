@@ -9,7 +9,7 @@ html {
     justify-content: space-evenly;
     align-items: center;
     height: 100vh;
-    padding: 2rem 0;
+    // padding: 2rem 0;
 }
 
 .logo {
@@ -26,6 +26,7 @@ html {
 .logo .image img {
     position: relative;
     max-width: 100%;
+    width: 20rem;
     left: -3rem;
 }
 
