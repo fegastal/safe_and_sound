@@ -4,6 +4,20 @@
 }
 
 .header {
-    background-color: var(--color-landing-header);
-    padding: 1rem;
+    background-color: var(--color-carousel-header);
+    padding: 1.5em;
+    border-bottom-right-radius: 2.5rem;
+    color: var(--color-text);
+    font-family: "Kodchasan";
+
+}
+
+.separator {
+    height: 2.5rem;
+    width: 100%;
+    background-color: var(--color-carousel-header);
+    -webkit-mask: image_url("border-top-left.svg") no-repeat;
+    mask: image_url("border-top-left.svg") no-repeat;
+
+
 }
